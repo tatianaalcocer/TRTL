@@ -29,6 +29,7 @@
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
     "react": "^15.5.4",
+    "react-materialize": "^0.18.4",
     "webpack": "^2.5.1"
   }
 }
