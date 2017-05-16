@@ -18,7 +18,7 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({type:'application/vnd.api+json'}));
 
 //Need to create this
-//app.use(express.static('./app/Public'));
+app.use(express.static('./app/Public'));
 
 
 // Passport
@@ -34,7 +34,7 @@ app.use(passport.session());
 
 // Routes
     //Need to add controller and route files
-//require('./controller/html-routes.js')(app);
+require('./controller/html-routes.js')(app);
 
 
 // Listener
