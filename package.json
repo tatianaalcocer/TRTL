@@ -19,8 +19,12 @@
   "dependencies": {
     "babel": "^6.23.0",
     "body-parser": "^1.17.1",
+    "connect-flash": "^0.1.1",
     "express": "^4.15.2",
+    "express-session": "^1.15.2",
     "mongojs": "^2.4.0",
+    "morgan": "^1.8.1",
+    "passport": "^0.3.2",
     "react": "^15.5.4"
   }
 }
