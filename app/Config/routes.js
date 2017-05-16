@@ -9,11 +9,11 @@ var hashHistory = ReactRouter.hashHistory;
 
 //Components
 //basic structure to add components
-//var Add = require('../Components/Add');
+var Home = require('../Components/Home');
 
 //Containers
 //basic structure to add containers
-//var AddContainer = require('../Containers/AddContainer');
+var HomeContainer = require('../Containers/HomeContainer');
 
 var Routes = React.createClass({
 
