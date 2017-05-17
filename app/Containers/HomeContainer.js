@@ -2,7 +2,7 @@ var React = require('react');
 var Router = require('react-router')
 var Home = require('../Components/Home');
 //db requests
-//var helpers = require('../Utilites/helpers');
+var helpers = require('../Utilites/helpers');
 
 var HomeContainer = React.createClass({
 
@@ -17,6 +17,7 @@ var HomeContainer = React.createClass({
 		};
 	},
 
+	// Pull login data
 	// updateInputs: function(event) {
 	// 	this.setState({[event.target.id]: event.target.value});
     //
